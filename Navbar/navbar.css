@@ -1,0 +1,164 @@
+
+@import url(https://db.onlinewebfonts.com/c/f394894fe9d2c0473c80ab24dd9bcda5?family=Human+BBY+Web);
+
+* {
+    font-family: "Human BBY Digital", "Human Fallback", Arial,
+    Helvetica, sans-serif;
+    color: white;
+}
+
+
+#Primary {
+    /* background-color: #0047bd; */
+    /* border: 2px solid yellow; */
+    justify-content: center;
+    background-color: #0047bd;
+    align-items: center;
+}
+
+#navParent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0047bd;
+    width: 90%;
+    margin: auto;
+    /* padding: 6px; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    /* border: 2px solid red; */
+}
+
+#navParent > div {
+    background-color: #0047bd;
+    /* border: 2px solid black; */
+}
+
+#logo {
+    background-color: transparent;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+}
+
+#burgermenu{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid yellow; */
+}
+
+#burgermenu :where(p) {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#stores :where(p) {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#cart :where(p) {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.burger {
+    display: flex;
+  	flex-direction: column;
+    width: 20px;
+    border: 0;
+    padding: 0;
+    gap: 4px;
+    background: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+/* .burger > div */
+.burger :where(.top_bread, .meat, .bottom_bread) {
+    background: white;
+    height: 2px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.burger[area-expanded = true] .top_bread{
+transform: translateY(calc(2px + 4px)) rotate(45deg);
+}
+
+.burger[area-expanded = true] .meat{
+transform:rotate(45deg);
+}
+
+.burger[area-expanded = true] .bottom_bread{
+transform: translateY(calc(-2px + -4px)) rotate(-45deg);
+}
+
+#searchbar, #stores, #cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbar {
+    width: 30%;
+    /* border: 2px solid yellow; */
+}
+
+.search {
+    width: 100%;
+    /* border-radius: 6px; */
+    height: 2rem;
+    border-radius: 4px;
+    border: 0;
+}
+
+.material-symbols-outlined{
+    color: white;
+}
+
+#Secondary {
+    background-color: #0047bd;
+}
+
+#nav2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0047bd;
+    width: 90%;
+    margin: auto;
+    margin-top: 1px;
+    padding: 6px;
+}
+
+/* #nav2 :where(.Secheader, .Secheader1){
+    display: flex;
+    justify-content: center;
+    /* background-color: #0047bd; */
+    /* margin-top: 1px; */
+    /* border: 0; */
+/* } */ 
+
+/* .Secheader {
+    display: flex;
+    justify-content: center;
+    /* background-color: #0047bd; */
+    /* margin-top: 1px; */
+/* } */
+
+.Secheader, .Secheader1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav2btn {
+    background-color: #0047bd;
+    border: 0;
+    font-size: 13px;
+    font-weight: 400;
+} 

@@ -1,0 +1,146 @@
+@import url(https://db.onlinewebfonts.com/c/f394894fe9d2c0473c80ab24dd9bcda5?family=Human+BBY+Web);
+
+* {
+    font-family: "Human BBY Digital", "Human Fallback", Arial,
+    Helvetica, sans-serif;
+    color: white;
+}
+
+#heropage {
+    background-image: url(https://img.freepik.com/free-photo/plain-smooth-green-paper-background_53876-102688.jpg?size=626&ext=jpg&uid=R15031941&ga=GA1.1.962751755.1698866472&semt=ais);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+    width: 90%;
+    }
+
+.hero1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin: auto;
+    /* border: 2px solid red; */
+    /* background-color: #646b70; */
+}
+
+#t1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#t2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#caution {
+    width: 80%;
+    height: auto;
+    padding: 0;
+    /* border: 2px solid green; */
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#caution > p {
+    font-size: 11px;
+    font-weight: lighter;
+    /* color: yellow; */
+}
+
+#shopbtn {
+    margin-top: 5px;
+    width: 80%;
+    /* border: 1px solid green; */
+    margin-left: 5%;
+    /* color: white; */
+}
+
+#shopbtn > button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 3%;
+    text-align: center;
+}
+
+span {
+    color: yellow;
+}
+
+/* #title1, #title2 {
+    border: 2px solid yellow;
+} */
+
+#title1 {
+    width: 50%;
+}
+
+#title2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#title2 > div {
+    width: 60%;
+    height: 70%;
+    /* border: 2px solid whitesmoke; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+
+.hero2 {
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.hero2 > p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.hero3 {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 15px;
+    /* border: 2px solid yellow; */
+    margin: auto;
+}
+
+#circle {
+    width: 170px;
+    height: 170px;
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle > img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+#productname > p {
+    color: #ffe000;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
